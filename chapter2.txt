@@ -1,0 +1,3 @@
+This is chapter 2
+esptool.py --port COM4 erase_flash
+esptool.py --port COM4 --baud 115200 write_flash --flash_size=detect -fm dout 0 esp8266-1m-20200902-v1.13.bin
